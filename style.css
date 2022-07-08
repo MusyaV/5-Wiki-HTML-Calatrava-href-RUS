@@ -1,0 +1,46 @@
+#table1 {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#table1 td,
+#table1 th {
+    border: 3px solid rgb(80, 79, 79);
+    padding: 3px;
+}
+
+#table1 thead td,
+#table1 thead th {
+    border: 3px solid rgb(184, 183, 183);
+    color: rgb(0, 0, 0);
+    background-color: rgb(184, 183, 183);
+    padding: 10px;
+}
+
+#table1 tbody th {
+    border: 3px solid rgb(48, 44, 44);
+    color: rgb(37, 36, 36);
+    background-color: rgb(184, 183, 183);
+    padding: 10px;
+}
+
+#table1 tbody td {
+    border: 2px solid rgb(48, 44, 44);
+    color: rgb(37, 36, 36);
+    background-color: #fff789;
+    padding: 10px;
+}
+
+#table1 tfoot th {
+    border: 3px solid rgb(48, 44, 44);
+    color: rgb(37, 36, 36);
+    background-color: rgb(184, 183, 183);
+    padding: 10px;
+}
+
+#table1 tfoot td {
+    border: 2px solid rgb(48, 44, 44);
+    color: rgb(37, 36, 36);
+    background-color: #8ed8f5;
+    padding: 10px;
+}
